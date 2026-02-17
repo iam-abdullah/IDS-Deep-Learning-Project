@@ -151,9 +151,9 @@ if __name__ == "__main__":
     # 1. Load Data
     print("Loading dataset...")
     try:
-        df = pd.read_csv("data/work/ids_dataset.csv")
+        df = pd.read_csv("data/ids_dataset.csv")
     except FileNotFoundError:
-        print("Error: 'data/work/ids_dataset.csv' not found. Please check the path.")
+        print("Error: 'data/ids_dataset.csv' not found. Please check the path.")
         exit()
 
     # 2. Initial Cleaning
